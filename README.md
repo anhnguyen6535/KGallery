@@ -1,3 +1,6 @@
+# About
+This website is created for my friend, who has a passion for capturing moments of everyday life. This blog focuses on portraying how Calgarians adapt and thrive in the harsh cold weather.
+
 ### Requirements
 1. [Optional] To avoid issue with nvm, remove installed Node first: [guide](https://www.geeksforgeeks.org/how-to-completely-remove-node-js-from-windows/)
 2. Install nvm (Node Version Manager) for [Windows](https://github.com/coreybutler/nvm-windows) or [Linux/MacOS](https://github.com/nvm-sh/nvm)
