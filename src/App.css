@@ -1,0 +1,52 @@
+:root{
+    --ion-background-color: #080804;
+    --ion-background-color-rgb: 8, 8, 4;
+    --ion-background-color-contrast: #64d97b;
+    --ion-background-color-contrast-rgb: 100, 217, 123;
+    --ion-text-color: #f2f3e5;
+    --ion-text-color-rgb: 242, 243, 229;
+    --ion-text-color-contrast: #64d97b;
+    --ion-text-color-contrast-rgb: 100, 217, 123;
+    --ion-color-primary: #d1d4a1;
+    --ion-color-primary-rgb: 209, 212, 161;
+    --ion-color-primary-contrast: #64d97b;
+    --ion-color-primary-contrast-rgb: 100, 217, 123;
+    --ion-color-secondary: #375e79;
+    --ion-color-secondary-rgb: 55, 94, 121;
+    --ion-color-secondary-contrast: #ffdd00;
+    --ion-color-secondary-contrast-rgb: 255, 221, 0;
+    --ion-color-accent: #7a72be;
+    --ion-color-accent-rgb: 122, 114, 190;
+    --ion-color-accent-contrast: #ffdd00;
+    --ion-color-accent-contrast-rgb: 255, 221, 0;
+}
+
+body{
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.header{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    /* font-style: bold; */
+}
+
+.textStyle{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
