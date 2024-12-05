@@ -25,7 +25,7 @@
 
 ### Create project steps
 1. `npm i -g @ionic/cli`
-2. `ionic start friender blank --type react`
+2. `ionic start <project_name> blank --type react`
 3. `ionic build`
 4. `ionic cap add ios`
 5. `ionic cap add android`
