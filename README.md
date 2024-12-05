@@ -1,5 +1,7 @@
 # About
 This website is created for my friend, who has a passion for capturing moments of everyday life. This blog focuses on portraying how Calgarians adapt and thrive in the harsh cold weather.
+
+
 Check out his work here: https://khoagallery.vercel.app/
 
 ### Requirements
