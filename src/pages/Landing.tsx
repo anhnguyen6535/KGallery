@@ -8,10 +8,10 @@ const Landing: FC<LandingProps> = () => {
     return (
         <IonPage>
             <IonContent fullscreen className="ion-padding">
-                <h1>Frozen Concrete</h1>
+                <h1 className='header'>FROZEN CONCRETE</h1>
                 
                 {photoDetail.map((photo, index) =>(
-                    <div key={index}>
+                    <div key={index} className='fadein textStyle'>
                         <h2>{photo.header}</h2>
                         <img alt={photo.header} src={photo.src}/>
                         <p>{photo.detail}</p>
