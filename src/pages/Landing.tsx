@@ -1,6 +1,7 @@
-import { IonContent, IonHeader, IonPage, IonTitle } from '@ionic/react';
+import { IonContent, IonPage } from '@ionic/react';
 import type { FC } from 'react';
 import { photoDetail } from './photoData';
+import { FadeInSection } from './FadeInSection';
 
 interface LandingProps {}
 
@@ -11,11 +12,11 @@ const Landing: FC<LandingProps> = () => {
                 <h1 className='header'>FROZEN CONCRETE</h1>
                 
                 {photoDetail.map((photo, index) =>(
-                    <div key={index} className='fadein textStyle'>
-                        <h2>{photo.header}</h2>
-                        <img alt={photo.header} src={photo.src}/>
-                        <p>{photo.detail}</p>
-                    </div>
+                    <FadeInSection key={index} >
+                            <h2>{photo.header}</h2>
+                            <img alt={photo.header} src={photo.src}/>
+                            <p>{photo.detail}</p>
+                    </FadeInSection>
                 )
                 )}
             </IonContent>
