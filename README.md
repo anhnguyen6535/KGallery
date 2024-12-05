@@ -1,5 +1,6 @@
 # About
 This website is created for my friend, who has a passion for capturing moments of everyday life. This blog focuses on portraying how Calgarians adapt and thrive in the harsh cold weather.
+Check out his work here: https://khoagallery.vercel.app/
 
 ### Requirements
 1. [Optional] To avoid issue with nvm, remove installed Node first: [guide](https://www.geeksforgeeks.org/how-to-completely-remove-node-js-from-windows/)
